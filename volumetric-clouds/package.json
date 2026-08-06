@@ -1,0 +1,17 @@
+{
+  "name": "@lovable-elements/volumetric-clouds",
+  "version": "1.0.0",
+  "description": "Orbiting volumetric cloud layer for React Three Fiber scenes",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/VolumetricClouds.tsx",
+  "types": "src/VolumetricClouds.tsx",
+  "files": ["src", "README.md"],
+  "keywords": ["react-three-fiber", "three", "clouds", "volumetric", "r3f"],
+  "peerDependencies": {
+    "@react-three/drei": ">=9",
+    "@react-three/fiber": ">=8",
+    "react": ">=18",
+    "three": ">=0.150.0"
+  }
+}
