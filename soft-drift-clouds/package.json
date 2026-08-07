@@ -1,0 +1,14 @@
+{
+  "name": "@lovable-3d-elements/soft-drift-clouds",
+  "version": "1.0.0",
+  "description": "Soft high-altitude drei cloud puffs from the island scene — quiet background sky.",
+  "main": "src/SoftDriftClouds.tsx",
+  "types": "src/SoftDriftClouds.tsx",
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-three/drei": ">=9.122.0 <10",
+    "@react-three/fiber": ">=8.18 <9",
+    "react": ">=18",
+    "three": ">=0.133"
+  }
+}
