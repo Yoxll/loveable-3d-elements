@@ -61,3 +61,12 @@ The asset taxonomy is biological rather than flat, so some common names map as f
 - Components are `.tsx`, one component per file, PascalCase file names.
 - Components must not hardcode absolute asset URLs — take a `url`/`src` prop or import a path constant.
 - `volumetric-clouds/` is a working published package: leave it untouched unless versioning it deliberately.
+
+## Cloud styles
+
+Two distinct cloud packages live in this repo — pick by look, not by name:
+
+| Package | Look | Use when |
+|---|---|---|
+| `volumetric-clouds/` | 5 large, dense puffs orbiting a centre point just past the island peaks, grey-mist tinted | You want clouds as a feature element with motion and scale |
+| `soft-drift-clouds/` | 2 large, low-opacity high puffs with internal churn only, no orbit | You want quiet distant background sky |
